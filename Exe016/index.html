@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/custom.js"></script>
+    <title>Exercicio-016</title>
+</head>
+<body>
+    <h2>Evento-Onclick</h2>
+    <button onclick="carConteudo()  ">Carregar Conteudo</button>
+    <p id="conteudo"></p>
+
+    <h2>Eventos- onmousehouver e onmouseout</h2>
+    <div onmouseover="mouseOver()" onmouseout="mouseOut()" class="contPers" id="mouseAlt">Passe o mouse</div>
+
+    <h2>Eventos-onchange e onkeup</h2>
+    <form>
+        Nome: <input type="text" name="nome" id="nome" onchange="converTexto()"><br><br>
+
+        
+        Senha: <input type="password" name="senha" id="senha" onkeyup="validarSenha()">
+        <div id="erroSenha"></div>
+    </form>
+    
+</body>
+</html>
